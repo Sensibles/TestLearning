@@ -8,4 +8,10 @@ public class SmsNotification implements Notification {
 		return 1;
 	}
 
+	@Override
+	public int getStatus(String status) throws Exception {
+		System.out.println("Status: "+status);
+		return 1;
+	}
+
 }
